@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "Jair",
+      "empresa": "Jair enterprise",
+      "email": "jair@gmail.com",
+      "telefono": "87987452",
+      "notas": "Cotizacion en Mercado Pago",
+      "id": 1
+    },
+    {
+      "nombre": "Elena ",
+      "empresa": "Elena enterprise",
+      "email": "Elenea@gmail.com",
+      "telefono": "2928347483",
+      "notas": "Cotizacion en Mercado Pago",
+      "id": 2
+    },
+    {
+      "nombre": "Cliente 1",
+      "empresa": "Empresa 1 ",
+      "email": "cliente1@gmail.com",
+      "telefono": "12938213128",
+      "notas": "Notas 1",
+      "id": 3
+    }
+  ]
+}
