@@ -17,11 +17,11 @@
       "id": 2
     },
     {
-      "nombre": "Cliente 1",
+      "nombre": "Cliente 123",
       "empresa": "Empresa 1 ",
-      "email": "cliente1@gmail.com",
-      "telefono": "12938213128",
-      "notas": "Notas 1",
+      "email": "user1@user.com",
+      "telefono": "1231231231",
+      "notas": "asdasdasdas",
       "id": 3
     }
   ]

@@ -16,10 +16,10 @@ const Cliente = ({cliente, handleEliminar}) => {
       </td>
       <td className='p-3 text-center'>{empresa}</td>
       <td className='p-3 text-center'>
-        <a className='text-blue-600 hover:text-blue-700 hover:cursor-pointer w-full p-2 uppercase font-bold text-2xl text-center' onClick={() => navigate(`/clientes/${id}`)}>
+        <a className='text-blue-600 hover:text-blue-700 hover:cursor-pointer w-full p-2 uppercase font-bold text-2xl text-center' onClick={() => navigate(`/${id}`)}>
             <i className="fa-solid fa-eye"></i>
             </a>
-        <a className='text-green-600 hover:text-green-700 hover:cursor-pointer w-full p-2 uppercase font-bold text-2xl text-center mx-2 my-3' onClick={() => navigate(`/clientes/editar/${id}`)}>
+        <a className='text-green-600 hover:text-green-700 hover:cursor-pointer w-full p-2 uppercase font-bold text-2xl text-center mx-2 my-3' onClick={() => navigate(`/editar/${id}`)}>
             <i className="fa-regular fa-pen-to-square"></i>
             </a>
         <a className='text-red-600 hover:text-red-700 hover:cursor-pointer w-full p-2 uppercase font-bold text-2xl text-center' onClick={ () => handleEliminar(id)}>
